@@ -45,9 +45,47 @@
                 <img src="./logosena.jpg" alt="logosena" class="brand-image img-circle elevation-3" style="opacity: .8;">
                 <span class="brand-text font-weight-light">Ambientes</span>
             </a>
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <li class="nav-item has-treeview menu-open">
+                        <a href="#" class="nav-link active">
+                            <i class="nav-icon fas fa-thin fa-address-book"></i>
+                            <p>
+                                Directorio
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">
+                                    <p>Instructores</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <p>Fichas</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <p>Programas</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <p>Historial de Asignaciones</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </aside>
-        <!-- Finaliza codigo Barra lateral principal
+        <!-- Finaliza codigo Barra lateral principal -->
+
     </div>
-    
+    <script src="./plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/adminlte.min.js"></script>
 </body>
 </html>
