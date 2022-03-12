@@ -11,7 +11,7 @@
     <?php include_once "./views/menu.php"; ?>
     <ul class="nav flex-column">
         <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Instructores</a>
+            <a class="nav-link" aria-current="page" href="./views/instructores/add.php">Instructores</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Competencias</a>

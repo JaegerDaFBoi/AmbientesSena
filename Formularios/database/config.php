@@ -1,6 +1,11 @@
 <?php
-    define('USER_DB', 'root');
-    define('PASSWORD_DB', '');
-    define('NAME_DB', 'ambientes');
-    define('HOST_DB', '127.0.0.1');
+    $host="127.0.0.1";
+    $user="root";
+    $pw="";
+    $dbname="ambientes";
+
+    define('USER_DB', $user);
+    define('PASSWORD_DB', $pw);
+    define('NAME_DB', $dbname);
+    define('HOST_DB', $host);
 ?>

@@ -1,9 +1,18 @@
 <?php
-    require "config.php";
-
-    $connection=mysqli_connect('HOST_DB','USER_DB','PASSWORD_DB','NAME_DB');
-
-    if (!$connection) {
-        die("Error connecting to database: ".mysqli_connect_error());
+    class Connection
+    {
+        public function connect()
+        {
+            $dbs='mysql:dbname=ambientes;host=localhost';
+            $usuario='root';
+            $contraseña='';
+            try{
+                $base=new PDO($dbs,$usuario,$contraseña);
+                echo "Conexion exitosa <br>";
+                return $base;
+            } catch (PDOException $e) {
+                echo "Fallo la conexion: ". $e->getMessage();
+            }
+        }
     }
 ?>
