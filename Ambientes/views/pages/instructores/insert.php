@@ -34,7 +34,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <form role="form">
+                        <form role="form" action="../../../controllers/Instructor.controlador.php">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-8">
@@ -54,7 +54,7 @@
                                     <div class="col-md-8">
                                         <div class="form-group">
                                             <label for="area">Área</label>
-                                            <select class="form-control" id="area">
+                                            <select class="form-control" id="area" name="area">
                                                 <option disabled selected>Seleccione un área</option>
                                                 <option>AREA DE SISTEMAS, MANTENIMIENTO DE EQUIPOS DE COMPUTO Y DISEÑO GRAFICO Y MULTIMEDIAL</option>
                                                 <option>AREA DE ELECTRONICA Y MANTENIMIENTO ELECTRONICO</option>

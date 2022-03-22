@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include_once "./pages/menu.php"; ?>
+    <?php include_once "../AmbientesSena/Ambientes/views/pages/menu.php"; ?>
     <div class="content-wrapper">
         <div class="content-header">
             <div class="container-fluid">
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <?php include_once "./pages/footer.php"; ?>
+    <?php include_once "../AmbientesSena/Ambientes/views/pages/footer.php"; ?>
 </body>
 
 </html>
